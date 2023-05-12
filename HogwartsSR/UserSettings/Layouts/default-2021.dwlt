@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 151
+  controlID: 154
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 135
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 207.20001
     height: 722.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 348.80005
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -627,9 +627,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.711851, y: 5.8980384, z: 4.1955013}
+    m_Target: {x: 11.8851385, y: 6.7463045, z: 4.0777583}
     speed: 2
-    m_Value: {x: 11.711851, y: 5.8980384, z: 4.1955013}
+    m_Value: {x: 11.8851385, y: 6.7463045, z: 4.0777583}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -676,13 +676,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.077142134, y: 0.75879544, z: -0.09079111, w: -0.64064056}
+    m_Target: {x: -0.015951488, y: -0.95104027, z: 0.05094589, w: -0.3050624}
     speed: 2
-    m_Value: {x: -0.076854624, y: 0.7605676, z: -0.09100462, w: -0.6382385}
+    m_Value: {x: -0.015491176, y: -0.95092994, z: 0.049509503, w: -0.3050264}
   m_Size:
-    m_Target: 1.7265388
+    m_Target: 12.830593
     speed: 2
-    m_Value: 1.807894
+    m_Value: 12.27808
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -737,10 +737,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1147.2}
-      m_SelectedIDs: f4e2faff
-      m_LastClickedID: -335116
-      m_ExpandedIDs: e8e2faffece2fafff0e2fafff4e2fafface1fbffa66bfcffca6bfcffe66bfcffea6bfcffee6bfcfff4a6fcfff6a6fcfff8a6fcfffaa6fcff08a7fcff088afdff0c8afdff848afdffb88afdffd48afdffd88afdffdc8afdffe08afdff688bfdff788bfdfff68dfdffa28ffdff5ea2fdff7ab4fdffa4bdfdffa0c7fdffb0c7fdff60d3fdff18c5feff40c5feff44c5feff48c5feff4cc5feffccf7feffdcf7feffd2f9feffeaf9feff9805ffff9a05ffffbe17ffffe421ffff022cffffc63efffffe50ffff2263ffff4675ffff7e87ffffa299ffffc6abffff9cbeffffbce7ffff30fbffff52d10000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: d6750000
+      m_LastClickedID: 30166
+      m_ExpandedIDs: a4f1ffffb4f1ffff0cfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -805,22 +805,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SalaComun/Maleta
+    - Assets/SalaComun/Puerta Grande
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SalaComun/Maleta
+  - Assets/SalaComun/Puerta Grande
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\danic\Documents\GitHub\Hogwarts_Scape_Room\HogwartsSR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a4f60000
-    m_LastClickedID: 63140
-    m_ExpandedIDs: 0000000042810000448100008086000000ca9a3b
+    m_SelectedIDs: a2810000
+    m_LastClickedID: 33186
+    m_ExpandedIDs: 00000000fc800000fe8000000081000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -848,7 +848,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004281000044810000
+    m_ExpandedIDs: 00000000fc800000fe80000000810000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 0000000084f60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
