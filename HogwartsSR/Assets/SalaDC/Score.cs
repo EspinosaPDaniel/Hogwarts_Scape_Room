@@ -29,7 +29,7 @@ public class Score : MonoBehaviour
     {
         if(score == 7)
         {
-            transform.position += new Vector3(0,170,0) * Time.deltaTime;
+            transform.position += new Vector3(0,70,0) * Time.deltaTime;
            //Cuadro.SetActive(false);
     }  
 }
