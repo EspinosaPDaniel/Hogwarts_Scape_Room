@@ -9,6 +9,7 @@ public class burnableCC : MonoBehaviour
    public ParticleSystem particleSystemToChangeColorSmoke;
    public Color newColor;
    public AudioSource audio;
+   public AudioSource sound;
    
     // Start is called before the first frame update
     void OnCollisionEnter(Collision col)
@@ -25,6 +26,8 @@ public class burnableCC : MonoBehaviour
             mainModuleSmoke.startColor = newColor;
             mainModuleSmoke.startSize=newStartSizeSmoke;
             audio.volume=1;
+			sound.mute=false;
+		    sound.Play();
             
 
         }

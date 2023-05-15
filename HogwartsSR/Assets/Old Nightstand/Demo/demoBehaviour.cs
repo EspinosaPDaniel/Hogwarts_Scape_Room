@@ -8,7 +8,10 @@ public class demoBehaviour : MonoBehaviour {
 	Animator an;
 	private bool open=false;
 	private SteamVR_Input_Sources inputSource;
+	private SteamVR_Input_Sources inputSource1;
 	private SteamVR_Action_Boolean buttonAction;
+	public GameObject player;
+	public float distance=2.0f;
 
 
 	// Use this for initialization
@@ -20,15 +23,18 @@ public class demoBehaviour : MonoBehaviour {
     {
         inputSource = SteamVR_Input_Sources.RightHand;
 	   buttonAction = SteamVR_Actions.default_GrabPinch;
+	   inputSource1 = SteamVR_Input_Sources.LeftHand;
+
     }
 	
 	// Update is called once per frame
 	void Update ()
 	{
-		if(buttonAction.GetLastStateDown(inputSource)) {
+		if(Vector3.Distance(transform.position, player.transform.position)<=distance){
+		if(buttonAction.GetLastStateDown(inputSource)||buttonAction.GetLastStateDown(inputSource1)) {
 		if(!open){
 		pyvaoq1.localPosition = pyvaoq1.localPosition + new Vector3 (0f, 0f, +0.02f);
-		if(pyvaoq1.localPosition== new Vector3(0f,0.22f,0.50f))
+		if(pyvaoq1.localPosition== new Vector3(0f,0.22f,0.70f))
 		{
 			open=true;
 		}
@@ -41,6 +47,7 @@ public class demoBehaviour : MonoBehaviour {
 		}
 		}
 		}
+	}
 	}
 		
 }
