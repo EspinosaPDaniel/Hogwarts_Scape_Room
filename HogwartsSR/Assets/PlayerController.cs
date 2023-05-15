@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
     public SteamVR_Action_Vector2 input;
-    public float speed=1;
+    public float speed;
     private CharacterController characterController;
     void Start()
     {
