@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: marble_1_metallic
+  m_Name: Slitheryn
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _NORMALMAP
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 83ce4516dcc63cc4bba36a70b989098d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7d7dcec55d88282448c943fac54e8cca, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -41,26 +41,26 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 3, y: 3}
+        m_Scale: {x: 1.87, y: 1.3}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1b5d37f7d9ff11f4da2a6afbbeb6956e, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 2800000, guid: 0ea9e7e251b6ac74ca6b52cd06bbd260, type: 3}
+        m_Scale: {x: 1.87, y: 1.3}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a1909448d6ca644458080707217bad03, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 6709565d7c22df04fac8dca11ad0ae17, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5edcb45eaf9139a4aacba54d9bfe2eea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 1979c7757587fa14fa611fcd2f489241, type: 3}
+        m_Texture: {fileID: 2800000, guid: 040e9f53653144143a76ecfa545ffe61, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -75,13 +75,13 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Parallax: 0.0211
+    - _Parallax: 0.063
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.1915984, g: 0.49056602, b: 0.29300067, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
