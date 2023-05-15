@@ -7,8 +7,18 @@ public class DoorScript : MonoBehaviour {
     public bool open;
     public bool close;
 
-    void OnMouseDown()
+    void OnCollisionEnter(Collision colision)
     {
+        if (colision.gameObject.name == "Llave"){
+            Destroy(colision.gameObject);
+            doorKey = true;
+            function();
+        }
+        
+    }
+
+    void function(){
+        {
         if (close)
         {
             if (doorKey)
@@ -27,6 +37,11 @@ public class DoorScript : MonoBehaviour {
                 
             }
         }
+    }
+
+    void OnMouseDown(){
+        function();
+    }
  
     void Update(){
         if (open)
