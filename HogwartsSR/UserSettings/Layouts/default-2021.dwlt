@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 127
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 258.40002
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -257,24 +257,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 3247.2}
-      m_SelectedIDs: 50740000
-      m_LastClickedID: 29776
-      m_ExpandedIDs: dcc3ffffe0c3ffffe4c3ffffe8c3ffffecc3ffff0ccbffff24cbffff40cbffff44cbffff48cbffff08dfffff2cdfffff38dfffff54dfffff82dfffff92dfffff9edfffffaadfffffcedffffff8dffffffcdfffff00e0ffff04e0ffff86e1ffff8ae1ffff8ee1fffff8ecffff10edffff34fbffff
+      scrollPos: {x: 0, y: 2815.2}
+      m_SelectedIDs: ee720000
+      m_LastClickedID: 29422
+      m_ExpandedIDs: 14c6ffff60d3ffffc2e1ffffc6e1ffffcae1ffffe6eafffffeeaffff02ebffff06ebffff0aebffffe4ebfffff4ebffff0aecffff0eecffff12ecffff16ecffffceedffff34fbffffc46c0000386d0000846d00003e6e0000b0710000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: magicbook2
-        m_OriginalName: magicbook2
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -12436
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -319,7 +319,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 1469.6
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -366,22 +366,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Import_Angel
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Import_Angel/hpdesk
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\repojuego\Hogwarts_Scape_Room\HogwartsSR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 62.200012}
-    m_SelectedIDs: 689d0000
-    m_LastClickedID: 40296
-    m_ExpandedIDs: 00000000649d0000669d0000689d00006a9d00006c9d00006e9d0000189e000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 989c0000
+    m_LastClickedID: 40088
+    m_ExpandedIDs: 00000000989c00009a9c00009c9c00009e9c0000a09c0000a29c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -409,7 +409,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000649d0000669d0000689d00006a9d00006c9d00006e9d0000
+    m_ExpandedIDs: 00000000989c00009a9c00009c9c00009e9c0000a09c0000a29c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -461,10 +461,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 1399.6}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 134.20007
+  m_DirectoriesAreaWidth: 184.20007
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -815,9 +815,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 141.96837, y: 18.314766, z: -91.10143}
+    m_Target: {x: 21.070602, y: 7.4741154, z: 35.21531}
     speed: 2
-    m_Value: {x: 141.96837, y: 18.314766, z: -91.10143}
+    m_Value: {x: 21.070602, y: 7.4741154, z: 35.21531}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -864,13 +864,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12828177, y: 0.16969785, z: -0.026292665, w: -0.97801024}
+    m_Target: {x: 0.001135625, y: 0.9928696, z: 0.044604156, w: 0.12184377}
     speed: 2
-    m_Value: {x: -0.12237498, y: 0.16524489, z: -0.024687966, w: -0.9783195}
+    m_Value: {x: 0.0014681941, y: 0.9924529, z: 0.04453593, w: 0.11424395}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 10
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
