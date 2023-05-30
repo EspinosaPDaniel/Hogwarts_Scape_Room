@@ -23,9 +23,9 @@ public class TeleportationZone : MonoBehaviour
             // Teletransporta al jugador a la nueva posición
 
             Debug.Log(teleportTarget.position);
-            //jugador.transform.position = teleportTarget.position;
+            jugador.transform.position = teleportTarget.position;
             //other.transform.position = teleportTarget.position;
-            other.GetComponent<Transform>().position = teleportTarget.position;
+            //other.GetComponent<Transform>().position = teleportTarget.position;
             Debug.Log("Se ha producido el transporte");
         }
     }
