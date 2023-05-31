@@ -17888,7 +17888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aad7b3e9d320164d9b2cd2cd1754e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: sala1
+  sceneName: SalaDE
 --- !u!4 &1164766991
 Transform:
   m_ObjectHideFlags: 0
