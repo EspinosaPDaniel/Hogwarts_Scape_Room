@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 29
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 198
+  controlID: 17
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 272.80005
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -244,8 +244,8 @@ MonoBehaviour:
     y: 0
     width: 778.4
     height: 318.4
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -307,10 +307,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 832}
-      m_SelectedIDs: aa700000
-      m_LastClickedID: 28842
-      m_ExpandedIDs: 26e1ffff3ee1ffff42e1ffff46e1ffffd8e5ffffdce5ffffe0e5ffffe4e5ffff76e6ffff10ecffff36ecffff3aecffff3eecffff42ecffffceedffffdeedffff54f0ffff34fbffff586c000036700000aa7000000c730000
+      scrollPos: {x: 0, y: 208}
+      m_SelectedIDs: a86d0000
+      m_LastClickedID: 28072
+      m_ExpandedIDs: 24e1ffff28e1ffff2ce1ffff54f0ffff34fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -326,7 +326,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 10}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -416,22 +416,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/musicAngel
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/musicAngel
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\repojuego\Hogwarts_Scape_Room\HogwartsSR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 729e0000
-    m_LastClickedID: 40562
-    m_ExpandedIDs: 00000000729e0000749e0000769e0000789e00007a9e000000ca9a3bffffff7f
+    m_SelectedIDs: f8010100
+    m_LastClickedID: 66040
+    m_ExpandedIDs: 00000000129f0000149f0000169f0000189f00001a9f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000729e0000749e0000769e0000789e00007a9e0000
+    m_ExpandedIDs: 00000000129f0000149f0000169f0000189f00001a9f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -486,7 +486,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c8700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -511,10 +511,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1776.2}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 50
+  m_DirectoriesAreaWidth: 178
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -587,18 +587,18 @@ MonoBehaviour:
       y: 21
       width: 777.4
       height: 370.4
-    m_Scale: {x: 1.343916, y: 1.343916}
-    m_Translation: {x: 343.1998, y: 159.61263}
+    m_Scale: {x: 1.3035985, y: 1.3035986}
+    m_Translation: {x: 341.4238, y: 155.26825}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -255.37294
-      y: -118.766815
-      width: 578.45874
-      height: 275.61246
+      x: -261.9087
+      y: -119.10741
+      width: 596.34924
+      height: 284.13654
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 971.75, y: 489.25}
@@ -865,9 +865,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 22.68747, y: 5.2796416, z: 50.371628}
+    m_Target: {x: 58.604324, y: 3.3324986, z: 50.444595}
     speed: 2
-    m_Value: {x: 22.68747, y: 5.2796416, z: 50.371628}
+    m_Value: {x: 58.604324, y: 3.3324986, z: 50.444595}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -914,9 +914,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.071234845, y: 0.87180656, z: -0.13208756, w: 0.46684974}
+    m_Target: {x: 0.07772433, y: 0.69470143, z: -0.07431537, w: 0.71170855}
     speed: 2
-    m_Value: {x: 0.07401328, y: 0.8707731, z: -0.13728172, w: 0.46629378}
+    m_Value: {x: 0.080895595, y: 0.69411576, z: -0.0774158, w: 0.71110195}
   m_Size:
     m_Target: 1.011764
     speed: 2
