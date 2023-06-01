@@ -28,7 +28,7 @@ public class shoot : MonoBehaviour
     {
     
             //if(buttonAction.GetLastStateDown(inputSource))
-            if(Input.GetKeyDown(KeyCode.F))
+            if(Input.GetKeyDown(KeyCode.F)||buttonAction.GetLastStateDown(inputSource))
             {
                 Debug.Log("shoot");
                 if(Time.time>shotRateTime){
@@ -36,7 +36,7 @@ public class shoot : MonoBehaviour
                 newSpell=Instantiate(spell, spawnPoint.position,Quaternion.Euler(spawnPoint.rotation.x,spawnPoint.rotation.y+90f,spawnPoint.rotation.z));
                 newSpell.GetComponent<Rigidbody>().AddForce(spawnPoint.forward*shotForce);
                 shotRateTime=Time.time+shotRate;
-                Destroy(newSpell,2);
+                Destroy(newSpell,3);
             }
             }
     
