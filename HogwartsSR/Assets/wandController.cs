@@ -19,7 +19,7 @@ private SteamVR_Action_Boolean buttonAction;
     // Update is called once per frame
     void Update()
     {
-        if(buttonAction.GetLastStateDown(inputSource))
+        if(Input.GetKeyDown(KeyCode.G)||buttonAction.GetLastStateDown(inputSource))
 		{
 		wand.SetActive(!wand.activeSelf);
 		}

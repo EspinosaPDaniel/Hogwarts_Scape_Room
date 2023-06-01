@@ -25,7 +25,7 @@ public class linternaController : MonoBehaviour
     void Update()
     {
         // Si se presiona la tecla F, cambiamos el estado de la linterna
-        if(buttonAction.GetLastStateDown(inputSource))
+        if(Input.GetKeyDown(KeyCode.F)||buttonAction.GetLastStateDown(inputSource))
         {
             light.enabled = !light.enabled;
             light2.enabled = !light2.enabled;
