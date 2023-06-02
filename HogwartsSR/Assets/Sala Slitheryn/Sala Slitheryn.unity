@@ -3207,6 +3207,19 @@ MonoBehaviour:
   - {fileID: 1752194929}
   - {fileID: 499283691}
   teleportDelay: 25
+--- !u!65 &807417225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807417220}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &823422195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3332,6 +3345,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MagicWand (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1779932760987728712, guid: 8ac05069436bf6b418d62b9dfc82ac96, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894038783434671259, guid: 8ac05069436bf6b418d62b9dfc82ac96, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 922567382}
     - target: {fileID: 7049969960619400594, guid: 8ac05069436bf6b418d62b9dfc82ac96, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -3549,6 +3570,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 16, y: 2.2737368e-13, z: 12}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &922567382 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4827948555812101732, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
+  m_PrefabInstance: {fileID: 1078789217}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &944072209
 PrefabInstance:
   m_ObjectHideFlags: 0

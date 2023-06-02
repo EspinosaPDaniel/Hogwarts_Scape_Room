@@ -10,8 +10,9 @@ public class Snaketeleport : MonoBehaviour
 
     private float timer = 0f; // Temporizador para realizar el teletransporte
 
-    public int contadorColisiones = 0; //Inicializacion de las colisiones
-    public int colisionesNecesarias = 3; //Colisiones necesarias
+    public int collisionCountThreshold = 3; // Número de colisiones requeridas antes de destruir el objeto
+
+    private int collisionCount = 0; // Contador de colisiones
 
     private void Update()
     {
@@ -35,15 +36,13 @@ public class Snaketeleport : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Comprobar si la colisión es con la esfera
-        if (collision.gameObject.CompareTag("Sphere"))
+        if (collision.gameObject == GameObject.Find("Sphere(Clone)"))
         {
-            contadorColisiones++;
+            collisionCount++;
+            Debug.Log(collisionCount);
 
-            // Comprobar si se alcanzó el número necesario de colisiones
-            if (contadorColisiones >= colisionesNecesarias)
+            if (collisionCount >= collisionCountThreshold)
             {
-                // Desaparecer el objeto
                 Destroy(gameObject);
             }
         }
