@@ -21,7 +21,7 @@ private void Start()
         Cofre2.gameObject.SetActive(false);
     }
 
-    void OnCollisionEnter(Collision colision)
+    private void OnTriggerEnter(Collider colision)
     {
         if (colision.gameObject.name == "RanuraLibro")
         {
