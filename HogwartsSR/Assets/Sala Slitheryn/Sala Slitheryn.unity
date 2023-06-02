@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731703, g: 0.13414727, b: 0.121078506, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3190,6 +3190,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4531424045374932359, guid: 925f22ee994fae3439b26da4c00a71a1, type: 3}
   m_PrefabInstance: {fileID: 807417219}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &807417221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4225969105841554156, guid: 925f22ee994fae3439b26da4c00a71a1, type: 3}
+  m_PrefabInstance: {fileID: 807417219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &807417222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807417221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15, y: 0.15, z: 0.15}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &807417223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3207,19 +3225,33 @@ MonoBehaviour:
   - {fileID: 1752194929}
   - {fileID: 499283691}
   teleportDelay: 25
---- !u!65 &807417225
-BoxCollider:
+--- !u!64 &807417224
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807417221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ae8bbd83b9689e041880dc7d719645aa, type: 2}
+--- !u!114 &807417226
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807417220}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1, y: 0.1, z: 0.1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c5a2acccbf2ed46bbb7e6b35a64511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionCountThreshold: 3
 --- !u!1001 &823422195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3784,7 +3816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4827948555812079220, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.96
+      value: 6.726
       objectReference: {fileID: 0}
     - target: {fileID: 4827948555812079220, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
       propertyPath: m_LocalPosition.y
