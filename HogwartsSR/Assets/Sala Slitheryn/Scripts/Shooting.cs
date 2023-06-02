@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public int collisionCountThreshold = 3; // Número de colisiones requeridas antes de destruir el objeto
+    public int collisionCountThreshold = 3; // Numero de colisiones requeridas antes de destruir el objeto
 
     public int collisionCount = 0; // Contador de colisiones
 
@@ -22,7 +22,7 @@ public class Shooting : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject == GameObject.Find("Sphere"))
+        if (collision.gameObject == GameObject.Find("Sphere(Clone)"))
         {
             collisionCount++;
             Debug.Log(collisionCount);
@@ -30,6 +30,7 @@ public class Shooting : MonoBehaviour
             if (collisionCount >= collisionCountThreshold)
             {
                 Destroy(gameObject);
+                Destroy(collision.gameObject);
             }
         }
     }
