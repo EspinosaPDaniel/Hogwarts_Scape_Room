@@ -12,6 +12,7 @@ public class Button : MonoBehaviour
     [SerializeField] Color highlightColor;
     [SerializeField] float resetDelay = .25f;
     [SerializeField] bool Press;
+    [SerializeField] GameObject hammer;
 
     AudioSource sound;
 
@@ -26,16 +27,20 @@ public class Button : MonoBehaviour
         Press = false;
     }
 
-    void OnMouseDown()
+    //void OnMouseDown()
+    void OnTriggerEnter(Collider colision)
     {
-        if (Press){
-        gm.PlayersPick(ButtonIndex);
-        PressButton();
-        }
-        else{
-        gm.StartGame();
-        Press = true;
-        PressButton();
+        if (colision.gameObject.name == "Martillo")
+        {
+            if (Press){
+            gm.PlayersPick(ButtonIndex);
+            PressButton();
+            }
+            else{
+            gm.StartGame();
+            Press = true;
+            PressButton();
+            }
         }
     }
 
