@@ -15,7 +15,7 @@ public class DoorScript : MonoBehaviour {
         sound = GetComponent<AudioSource>();
     }
 
-    void OnCollisionEnter(Collision colision)
+    void OnTriggerEnter(Collider colision)
     {
         if (colision.gameObject.name == "Llave"){
             sound.Play();
