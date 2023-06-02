@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731703, g: 0.13414727, b: 0.121078506, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3218,7 +3218,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &823422195
 PrefabInstance:
@@ -3350,6 +3350,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1894038783434671259, guid: 8ac05069436bf6b418d62b9dfc82ac96, type: 3}
+      propertyPath: shotRate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894038783434671259, guid: 8ac05069436bf6b418d62b9dfc82ac96, type: 3}
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 922567382}
@@ -3359,7 +3363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7049969960619400594, guid: 8ac05069436bf6b418d62b9dfc82ac96, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -6.84
       objectReference: {fileID: 0}
     - target: {fileID: 7049969960619400594, guid: 8ac05069436bf6b418d62b9dfc82ac96, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3775,12 +3779,16 @@ PrefabInstance:
       value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 4827948555812079220, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4827948555812079220, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.96
       objectReference: {fileID: 0}
     - target: {fileID: 4827948555812079220, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02
+      value: 0.96
       objectReference: {fileID: 0}
     - target: {fileID: 4827948555812079220, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3817,6 +3825,14 @@ PrefabInstance:
     - target: {fileID: 4827948555812304396, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
       propertyPath: m_Name
       value: Player (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823821439873242582, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
+      propertyPath: m_Height
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823821439873242582, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
+      propertyPath: m_Center.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9652ca19bf6cf5142b109bc87e91c0df, type: 3}
