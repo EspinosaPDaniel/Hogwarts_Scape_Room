@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class burnableCC : MonoBehaviour
 {
@@ -28,8 +29,20 @@ public class burnableCC : MonoBehaviour
             audio.volume=1;
 			sound.mute=false;
 		    sound.Play();
+            Debug.Log("eeee");
+            StartCoroutine(DelayedAction());
+            Debug.Log("iiii");
+            SceneManager.LoadScene("SalaDC");
             
 
         }
     }
+     private IEnumerator DelayedAction()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+
+        // Acción a realizar después del retraso
+        Debug.Log("Delayed action executed!");
+    }
+    
 }
