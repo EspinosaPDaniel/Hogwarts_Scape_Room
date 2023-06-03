@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6466,7 +6466,7 @@ MonoBehaviour:
   particleSystemToChangeColorSmoke: {fileID: 4824489}
   newColor: {r: 0.056283355, g: 0.4811321, b: 0.06981362, a: 1}
   audio: {fileID: 2137661474}
-  sound: {fileID: 0}
+  sound: {fileID: 2137661474}
 --- !u!1 &191929137
 GameObject:
   m_ObjectHideFlags: 0
@@ -13870,7 +13870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3428256932405444492, guid: 2cc55a423ece0d1448108e3265d64baf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.078
+      value: 1.172
       objectReference: {fileID: 0}
     - target: {fileID: 3428256932405444492, guid: 2cc55a423ece0d1448108e3265d64baf, type: 3}
       propertyPath: m_LocalPosition.z
