@@ -6,7 +6,7 @@ public class Snaketeleport : MonoBehaviour
 {
     public Transform[] teleportLocations; // Array con las tres ubicaciones de teletransportación
     private int currentIndex = 0; // Índice actual de la ubicación de teletransportación
-    public float teleportDelay = 25f; // Tiempo en segundos entre cada teletransportación
+    public float teleportDelay = 15f; // Tiempo en segundos entre cada teletransportación
 
     private float timer = 0f; // Temporizador para realizar el teletransporte
 
@@ -28,6 +28,8 @@ public class Snaketeleport : MonoBehaviour
         transform.position = teleportLocations[currentIndex].position;
         currentIndex = (currentIndex + 1) % teleportLocations.Length;
     }
+
+
 }
 
 
