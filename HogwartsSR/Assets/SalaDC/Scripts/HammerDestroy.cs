@@ -3,27 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Burnable : MonoBehaviour
+public class HammerDestroy : MonoBehaviour
 {
-   public GameObject fireObject;
-   public ParticleSystem particleSystemToChangeColor;
-   public ParticleSystem particleSystemToChangeColorSmoke;
-   public Color newColor;
+     public GameObject hammer;
    
     // Start is called before the first frame update
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter(Collider col)
     {
         ParticleSystem.MinMaxCurve newStartSize = new ParticleSystem.MinMaxCurve(5);
         ParticleSystem.MinMaxCurve newStartSizeSmoke = new ParticleSystem.MinMaxCurve(4);
-        if (col.gameObject == fireObject)
+        if (col.gameObject.name == "Martillo")
         {
             Destroy(gameObject);
-            var mainModule = particleSystemToChangeColor.main;
-            var mainModuleSmoke = particleSystemToChangeColorSmoke.main;
-            mainModule.startColor = newColor;
-            mainModule.startSize=newStartSize;
-            mainModuleSmoke.startColor = newColor;
-            mainModuleSmoke.startSize=newStartSizeSmoke;
             Debug.Log("eeee");
             StartCoroutine(DelayedAction());
             Debug.Log("iiii");
@@ -39,5 +30,4 @@ public class Burnable : MonoBehaviour
         // Acción a realizar después del retraso
         Debug.Log("Delayed action executed!");
     }
-    
 }
