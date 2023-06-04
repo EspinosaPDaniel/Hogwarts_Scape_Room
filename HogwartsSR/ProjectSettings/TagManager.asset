@@ -9,6 +9,8 @@ TagManager:
   - projectile
   - FxTemporaire
   - cup
+  - Prueba
+  - key
   layers:
   - Default
   - TransparentFX
