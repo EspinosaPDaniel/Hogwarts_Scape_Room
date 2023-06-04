@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
             pickNumber++;
             if(pickNumber == colorOrder.Count)
             {
-                if(pickNumber == 7){
+                if(pickNumber == 4){
                     score.Finish();
                 }
                 else{
