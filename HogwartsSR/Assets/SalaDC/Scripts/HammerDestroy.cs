@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class HammerDestroy : MonoBehaviour
 {
      public GameObject hammer;
+	 public GameObject player;
    
     // Start is called before the first frame update
     void OnTriggerEnter(Collider col)
@@ -18,6 +19,7 @@ public class HammerDestroy : MonoBehaviour
             Debug.Log("eeee");
             StartCoroutine(DelayedAction());
             Debug.Log("iiii");
+			player.SetActive(false);
             SceneManager.LoadScene("Sala Slitheryn");
             
 

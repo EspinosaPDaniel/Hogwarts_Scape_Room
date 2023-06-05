@@ -9,6 +9,7 @@ public class Burnable : MonoBehaviour
    public ParticleSystem particleSystemToChangeColor;
    public ParticleSystem particleSystemToChangeColorSmoke;
    public Color newColor;
+   public GameObject player;
    
     // Start is called before the first frame update
     void OnCollisionEnter(Collision col)
@@ -27,6 +28,7 @@ public class Burnable : MonoBehaviour
             Debug.Log("eeee");
             StartCoroutine(DelayedAction());
             Debug.Log("iiii");
+			player.SetActive(false);
             SceneManager.LoadScene("Sala Slitheryn");
             
 
