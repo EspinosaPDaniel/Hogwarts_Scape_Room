@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Shooting : MonoBehaviour
+public class ShootMenu : MonoBehaviour
 {
-    public int collisionCountThreshold = 3; // Numero de colisiones requeridas antes de destruir el objeto
+    public int collisionCountThreshold = 1; // Numero de colisiones requeridas antes de destruir el objeto
 
     public int collisionCount = 0; // Contador de colisiones
 
@@ -33,7 +33,7 @@ public class Shooting : MonoBehaviour
                 Destroy(gameObject);
                 Destroy(collision.gameObject);
                 StartCoroutine(DelayedAction());
-                SceneManager.LoadScene("HabitacionX");
+                SceneManager.LoadScene("ENTRADA");
             }
         }
     }
