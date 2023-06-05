@@ -11,15 +11,25 @@ public class burnableCC : MonoBehaviour
    public Color newColor;
    public AudioSource audio;
    public AudioSource sound;
-   
+   private bool enter=true;
     // Start is called before the first frame update
+
+    IEnumerator your_timer() {
+    enter = true;
+    Debug.Log("Your enter Coroutine at" + Time.time);
+    SceneManager.LoadScene("SalaDC");
+    yield return new WaitForSeconds(2);
+    Debug.Log("ooooooooo"); 
+    SceneManager.LoadScene("SalaDC");
+    enter = false;
+    }
     void OnCollisionEnter(Collision col)
     {
         ParticleSystem.MinMaxCurve newStartSize = new ParticleSystem.MinMaxCurve(5);
         ParticleSystem.MinMaxCurve newStartSizeSmoke = new ParticleSystem.MinMaxCurve(4);
         if (col.gameObject == fireObject)
         {
-            Destroy(gameObject);
+            
             var mainModule = particleSystemToChangeColor.main;
             var mainModuleSmoke = particleSystemToChangeColorSmoke.main;
             mainModule.startColor = newColor;
@@ -29,20 +39,22 @@ public class burnableCC : MonoBehaviour
             audio.volume=1;
 			sound.mute=false;
 		    sound.Play();
-            Debug.Log("eeee");
-            StartCoroutine(DelayedAction());
-            Debug.Log("iiii");
-            SceneManager.LoadScene("SalaDC");
+            enter=false;
+                 
+            if (enter == false)
+            {
+            Debug.Log("oooo");
+            StartCoroutine(your_timer());
+            }   
+            Destroy(gameObject);
             
 
         }
     }
-     private IEnumerator DelayedAction()
-    {
-        yield return new WaitForSecondsRealtime(2f);
+    void change(){
+        
+        SceneManager.LoadScene("SalaDC");
 
-        // Acción a realizar después del retraso
-        Debug.Log("Delayed action executed!");
     }
     
 }
