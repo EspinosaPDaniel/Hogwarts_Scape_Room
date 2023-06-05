@@ -12,6 +12,8 @@ public class Entrar : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // Comprueba si la colisión involucra un Character Controller y un Box Collider
+
+        Debug.Log("Se produce colision");
         if (collision.collider.GetComponent<CharacterController>() != null && collision.collider.GetComponent<BoxCollider>() != null && collision.collider.name == "Puerta")
         {
             // Incrementa el contador de colisiones
@@ -22,7 +24,13 @@ public class Entrar : MonoBehaviour
                 SceneManager.LoadScene("SalaComun");
             }
         }
+
     }
+
+     private void OnTriggerEnter(Collider other){
+
+        SceneManager.LoadScene("SalaComun");
+     }
 
     private IEnumerator DelayedAction()
     {
