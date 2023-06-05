@@ -8,6 +8,8 @@ public class firstsound : MonoBehaviour
 
     private AudioSource audioSource;
 
+    public GameObject objecttodestroy;
+
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -23,6 +25,7 @@ public class firstsound : MonoBehaviour
         {
             Debug.Log("Hola");
             ReproducirSonido();
+            Destroy(objecttodestroy);
         }
 
         Debug.Log("Si se produce colision");
