@@ -6,6 +6,11 @@ TagManager:
   tags:
   - wand_Angel
   - Fall_detector
+  - projectile
+  - FxTemporaire
+  - cup
+  - Prueba
+  - key
   layers:
   - Default
   - TransparentFX

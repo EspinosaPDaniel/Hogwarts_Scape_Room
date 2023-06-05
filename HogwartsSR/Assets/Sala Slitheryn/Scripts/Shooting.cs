@@ -32,7 +32,7 @@ public class Shooting : MonoBehaviour
             {
                 Destroy(gameObject);
                 Destroy(collision.gameObject);
-                StartCoroutine(DelayedAction());
+                //StartCoroutine(DelayedAction());
                 SceneManager.LoadScene("HabitacionX");
             }
         }
